@@ -1,0 +1,24 @@
+p {
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    padding: 20px;
+}
+
+.item {
+    background-color: black;
+    color: #fff;
+}
+
+.item-yellow{
+    color: yellow;
+}
+
+.item-ft-30{
+    font-size: 30px;
+}
+
+/* #descdesc4{
+    background-color: violet;
+} */
+
+Selector Specificity: (0, 1, 0)

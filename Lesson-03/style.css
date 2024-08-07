@@ -1,0 +1,11 @@
+/* .mainlist{
+    display: flex;
+    justify-content: space-between;
+}
+.submenu{
+    display: none;
+}
+
+.mainlist:hover .submenu{
+    display: block;
+} */

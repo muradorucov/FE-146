@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader {
+    display: flex;
+    gap: 10px;
+}
+
+span {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    scale: 0.4;
+    animation: loaderAnim .6s ease-in-out infinite alternate;
+
+}
+
+span:first-child {}
+
+span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+span:last-child {
+    animation-delay: 0.4s;
+
+}
+
+@keyframes loaderAnim {
+    from {
+        scale: 0.4;
+    }
+
+    to {
+        scale: 1;
+    }
+}

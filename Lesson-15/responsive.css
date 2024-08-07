@@ -1,0 +1,11 @@
+@media screen and (max-width:550px) {
+    section#team {
+        .section-heading {
+            h2 {
+                font-size: 20px;
+                margin-top: 0px;
+            }
+            padding-bottom: 1.5rem;
+        }
+    }
+}

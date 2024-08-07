@@ -1,0 +1,50 @@
+@media screen and (max-width:992px) {
+    body {
+        header {
+            padding-inline: 3rem;
+
+            .menu,
+            .menu-btn {
+                display: none;
+
+            }
+
+            .toggle-menu-btn {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    #intro {
+        height: 140vh !important;
+        /* padding-bottom: 7rem !important; */
+
+        .container {
+            .intro-content {
+                /* padding-top: 7rem; */
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    #intro {
+        .intro-cover {
+            /* height: 111% !important; */
+        }
+
+        .container {
+
+            .intro-content {
+                /* padding-top: 10rem; */
+
+                h1 {
+                    font-size: 2rem !important;
+                }
+            }
+        }
+    }
+}
